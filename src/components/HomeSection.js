@@ -13,13 +13,13 @@ export default function HomeSection() {
                 <div>
                     <div className="home__social">
                         <a href="#cv" className="button button-light home__button">Download Cv</a>
-                        <a href="#facebook" className="home__social-icon">
+                        <a href="https://www.facebook.com/braysen.torres/" className="home__social-icon">
                             <i><FacebookIcon/></i>
                         </a>
-                        <a href="#linkedin" className="home__social-icon">
+                        <a href="https://www.linkedin.com/in/brayssen-torrejon-cerna/" className="home__social-icon">
                             <i><LinkedInIcon/></i>
                         </a>
-                        <a href="#github" className="home__social-icon">
+                        <a href="https://www.github.com/Braysen" className="home__social-icon">
                             <i><GitHubIcon/></i>
                         </a>
                     </div>
