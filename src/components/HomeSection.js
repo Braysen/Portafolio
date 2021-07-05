@@ -13,15 +13,17 @@ export default function HomeSection() {
                 <div>
                     <div className="home__social">
                         <a href="#cv" className="button button-light home__button">Download Cv</a>
-                        <a href="https://www.facebook.com/braysen.torres/" className="home__social-icon">
-                            <i><FacebookIcon/></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/brayssen-torrejon-cerna/" className="home__social-icon">
-                            <i><LinkedInIcon/></i>
-                        </a>
-                        <a href="https://www.github.com/Braysen" className="home__social-icon">
-                            <i><GitHubIcon/></i>
-                        </a>
+                        <div className="redes_sociales">
+                            <a href="https://www.facebook.com/braysen.torres/" className="home__social-icon">
+                                <i><FacebookIcon/></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brayssen-torrejon-cerna/" className="home__social-icon">
+                                <i><LinkedInIcon/></i>
+                            </a>
+                            <a href="https://www.github.com/Braysen" className="home__social-icon">
+                                <i><GitHubIcon/></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="home_scroll">
                         <a href="#about" className="home_scroll-link"><i className="bx bx-up-arrow-alt"></i>Scroll down</a>

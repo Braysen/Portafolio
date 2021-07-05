@@ -106,6 +106,25 @@ const mySwiper = new Swiper('.testimonial__container',{
     }
 })
 
+const skillsContent = document.getElementsByClassName('skills__content');
+const skillsHeader = document.querySelectorAll('.skills__header');
+
+function toggleSkills(){
+    let itemClass = this.parentNode.className
+
+    for(i = 0; i < skillsContent.length; i++){
+        skillsContent[i].className = 'skills__content skills__close';
+    }
+
+    if(itemClass === 'skills__content skills__close'){
+        this.parentNode.className = 'skills__content skills__open'
+    }
+}
+
+skillsHeader.forEach((el) => {
+    el.addEventListener('click', toggleSkills);
+})
+
 gsap.from('.home__img', {opacity:0, duration: 2, delay:.5, x:60})
 gsap.from('.home__data', {opacity:0, duration: 2, delay:.8, y:25})
 
