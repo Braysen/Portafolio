@@ -3,6 +3,7 @@ import AboutSection from './components/AboutSection';
 import Header from './components/Header';
 import HomeSection from './components/HomeSection';
 import SkillsSection from './components/SkillsSection';
+import QualificationsSection from './components/Qualifications';
 import './prueba.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
               <HomeSection/>
               <AboutSection />
               <SkillsSection/>
+              <QualificationsSection />
             </main>
           </>
   );
